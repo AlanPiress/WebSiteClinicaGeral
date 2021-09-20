@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    font-size: 16px;
+    background: #f6f9ff;
+    color: #434343;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 32px;
+}
+
+nav ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #434343;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #f17494;
+}
+
+
+section.one{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.one .text{
+    position: relative;
+    max-width: 700px;
+}
+
+section.one .text h2{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+section.one .text h2 span{
+    color: #f17494;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+section.one .text p{
+    margin-bottom: 20px;
+}
+
+section.one .text button{
+    border: none;
+    border-radius: 32px;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    background: #f17494;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+section.one .text button:hover{
+    background: #e76989;
+}
+
+
+section.two{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+}
+
+section.two h1{
+    margin-bottom: 40px;
+}
+
+section.two span{
+    max-width: 700px;
+}
+
+
+section.three{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/bkg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+section.four{
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.four p{
+    color: #e76989;
+}
+
+section.four .cards1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 50px 32px 50px;
+}
+
+section.four .cards2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 32px 50px;
+}
+
+section.four .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 32px;
+    margin-left: 32px;
+    max-width: 250px;
+    max-height: 468px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section.four .card:first-child{
+    margin-left: 0;
+}
+
+
+section.four .card h3{
+    font-size: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+section.four .card span{
+    font-weight: 300;
+    font-size: 90%;
+    margin-bottom: 12px;
+    max-width: 240px;
+}
+
+section.four .card{
+    overflow: hidden;
+}
+
+section.four .card{
+    width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section.four .card:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+section.four .card button{
+    border: none;
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+    background: #f17494;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.four .card button:hover{
+    background: #e76989;
+}
+
+
+.bt button{
+    border: none;
+    border-radius: 32px;
+    padding: 0.5rem 5rem;
+    background: #f17494;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bt button:hover{
+    background: #e76989;
+}
+
+section.five{
+    height: 700px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.five h4{
+    color: #e76989;
+    margin-bottom: 40px;
+}
+
+section.six{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.six h1{
+    margin-bottom: 12px;
+}
+
+section.six span{
+    margin-bottom: 30px;
+    color: #e76989;
+}
+
+section.six form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+    background: white;
+    border-radius: 8px;
+}
+
+form input{
+    padding: 10px;
+}
+
+form input:focus{
+    outline: 0;
+}
+
+form .dd input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+form .email input{
+    width: 510px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+form textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form textarea:focus{
+    outline: 0;
+}
+
+form button{
+    border: none;
+    border-radius: 32px;
+    padding: 0.5rem 3rem;
+    background: #f17494;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #e76989;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: rgb(15, 15, 15);
+    color: white;
+    font-weight: 200;
+    font-size: 80%;
+}
